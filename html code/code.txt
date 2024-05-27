@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uraban</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- start header -->
+    <div class="header">
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Uraban</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Generic</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Element</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+
+        <!-- end nav -->
+    </div>
+    <!-- end header -->
+    <!-- start photo -->
+    <div class="photo">
+        <div class="continer">
+            <h2>This is Uraban</h2>
+            <h5>Aliquam libero augue varius non odio nec faucibus congue</h5>
+            <h5>felis quisque a diam rutrum tempus massa accumsan faucibus purus.</h5>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <!-- ebd photo -->
+    <!-- start about -->
+    <div class="about">
+        <div class="continer">
+            <div class="image">
+                <img src="photo/pic01.jpg">
+            </div>
+            <div class="text">
+                <h2>Maecenas a gravida quam</h2>
+                <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
+                <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
+                <a href="#">Learn More</a>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- en about -->
+    <!-- start servoce -->
+    <div class="service">
+        <div class="continer">
+            <div class="text">
+                <h2>
+                     Suspendisse quis massa vel justo
+                </h2>
+                <p>Etiam posuere hendrerit arcu, ac blandit nulla. Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex.</p>
+                <p>Sed congue malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet, enim magna cursus auctor lacinia nunc ex blandit augue. Ut vitae neque fermentum, luctus elit fermentum, porta augue. Nullam ultricies, turpis at fermentum iaculis, nunc justo dictum dui, non aliquet erat nibh non ex. </p>
+                <a href="#">Learn More</a>
+
+            </div>   
+            <div class="image">
+                <img src="photo/pic02.jpg">
+            </div>         
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- start contact -->
+    <div class="contact">
+        <div class="continer">
+            <h2>Aliquam ipsum purus dolor</h2>
+            <p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <img src="photo/pic03.jpg">
+                <div class="text">
+                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+                    <a href="#">Learn More</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic04.jpg">
+                <div class="text">
+                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+                    <a href="#">Learn More</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="photo/pic05.jpg">
+                <div class="text">
+                    <p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis sollicitudin aliquet. </p>
+                    <a href="#">Learn More</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="continer">
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            <a href="#"> <i class="fa-brands fa-linkedin-in" style="color: #000000;"></i></a>
+            <a href="#"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+            <p> Powerd By Templated</p>
+            <p>By Omar Rehan</p>
+
+        </div>
+    </div>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+</body>
+</html>

@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.continer{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* start header */
+/* end header */
+/* start photo */
+.photo{
+    background-image: linear-gradient(to right,rgb(0, 0, 0,80%),transparent),url(photo/banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.photo .continer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photo .continer{
+    line-height: 2;
+    text-align: center;
+    background-color: rgb(0, 0, 0,50%);
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.photo .continer h2,.photo .continer h5{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.photo .continer a{
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    font-weight: bold;
+    transition: 0.2s;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.photo .continer a:hover{
+    background-color: white;
+    color: black;
+}
+@media(max-width:567px) {
+    .photo .continer{
+        padding: 30px;
+        width: 90%;
+    }
+    .photo .continer h3{
+        font-size: 20px;
+    }
+    .photo .continer a{
+        text-decoration: none;
+        background-color: #3498db;
+        color: white;
+        padding: 20px;
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+        font-weight: bold;
+        transition: 0.2s;
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width:568px) and(max-width:767px) {
+    .photo .continer{
+        padding: 30px;
+        width: 100%;
+    }
+    .photo .continer h3{
+        font-size: 20px;
+    }
+    .photo .continer a{
+        text-decoration: none;
+        background-color: #3498db;
+        color: white;
+        padding: 20px;
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+        font-weight: bold;
+        transition: 0.2s;
+        font-size: 15px;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .photo .continer a{
+        width: 70%;
+    }
+    
+}
+@media (min-width:1400px) {
+    .header .continer .links ul{
+        transform: translateX(-50%);
+    }
+    
+}
+/* end photo */
+/* start about */
+.about{
+    margin-top: 30px;
+}
+.about .continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .continer .image img{
+    width: 400px;
+    border-radius: 50%;
+    padding: 4px;
+    border:  solid 1px black;
+}
+.about .continer .text {
+    margin-left: 30px;
+    line-height: 2;
+}
+.about .continer .text h2{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+.about .continer .text p{
+    color: #777;
+}
+.about .continer .text a{
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    display: block;
+    width: 20%;
+    margin: 10px ;
+    font-weight: bold;
+    transition: 0.2s;
+    text-align: center;
+    border-radius: 20px;
+}
+.about .continer .text a:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:575px) {
+    .about .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .about .continer .image{
+        margin: 20px auto;
+    }
+    .about .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .about .continer .text a{
+        width: 50%;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767px) {
+    .about .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .about .continer .image{
+        margin: 20px auto;
+    }
+    .about .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .about .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .about .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .about .continer .image{
+        margin: 20px auto;
+    }
+    .about .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .about .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .about .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:1400px) {
+    .about .continer .text p{
+        width: 90%;
+    }
+    
+}
+/* end about */
+/* start service */
+.service{
+    background-color: #3498db;
+    margin-top: 10px;
+}
+.service .continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.service .continer .text{
+    line-height: 2;
+}
+.service .continer .text  h2{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.service .continer .text p{
+    color: black;
+}
+.service  .continer .text a{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    padding: 15px;
+    display: block;
+    width: 20%;
+    margin: 10px ;
+    font-weight: bold;
+    transition: 0.2s;
+    text-align: center;
+    border-radius: 20px;
+}
+.service .continer .text a:hover{
+    background-color:red;
+    color: white;
+}
+.service .continer .image img{
+    width: 400px;
+    border-radius: 50%;
+    border: solid 2px white;
+    padding: 3px;
+}
+@media (max-width:575px) {
+    .service .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .service .continer .image{
+        margin: 20px auto;
+    }
+    .service .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .service .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767px) {
+    .service .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .service .continer .image{
+        margin: 20px auto;
+    }
+    .service .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .service .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .service .continer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .service .continer .image{
+        margin: 20px auto;
+    }
+    .service .continer .image img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 4px;
+        border:  solid 1px black;
+    }
+    .service .continer .text a{
+        width: 40%;
+    }
+    
+}
+@media (min-width:1400px) {
+    .service .continer .text p{
+        width: 90%;
+    }
+    .service .continer .image {
+        margin-right: 90px;
+    }
+    
+}
+/* end service */
+/* start contact */
+.contact{
+    margin: 10px;
+}
+.contact .continer{
+    text-align: center;
+    line-height: 2;
+}
+.contact .continer h2{
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.contact .continer p{
+    color: #777;
+}
+.contact .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    gap: 30px;
+    text-align: center;
+}
+.contact .content .box img{
+    border-radius: 50%;
+    border: solid 2px black ;
+    padding: 3px;
+}
+.contact .content .box .text p{
+    line-height: 2;
+}
+.contact .content .text a{
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    font-weight: bold;
+    transition: 0.2s;
+    text-align: center;
+    border-radius: 20px;
+}
+.contact .content .text a:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:575px) {
+    .contact .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 30px;
+        text-align: center;
+    }
+    .contact .continer{
+        margin: 10px auto;
+    }
+    .contact .continer h2{
+        font-size: 20px;
+    }
+    .contact .contact .box{
+        margin: 10px auto;
+    }
+    .contact .continer p{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .contact .content{
+        margin-top: 20px;
+    }
+    .contact .content .box img{
+        width: 70%;
+    }
+    .contact .content .box .text p{
+        width: 80%;
+        margin: 5px auto;
+    }
+    
+}
+@media (min-width:768px) and (max-width:991px) {
+    .contact .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        gap: 30px;
+        text-align: center;
+    }
+    
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .contact .content .box img{
+        width: 100%;
+    }
+    
+}
+@media (min-width:1400px) {
+    .contact .content{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        gap: 30px;
+        text-align: center;
+        margin: 30px;
+    }
+    .contact .content .box img{
+        width: 70%;
+    }
+    .contact .content .box .text p{
+        width: 60%;
+        margin: 20px auto;
+    }
+    
+}
+/* end contact */
+/* start footer */
+.footer .continer{
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px;
+    margin-top: 20px;
+    line-height: 2;
+}
+.footer .continer i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* end footer */
